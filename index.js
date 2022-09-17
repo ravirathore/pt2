@@ -28,11 +28,11 @@ const body = await response.text();
 
 //create new feed
 const feed = new ffeed({
-    title: 'PTI News',
-    description: 'PTI News',
-    id: 'http://www.ptinews.com/home.aspx',
-    link: 'http://www.ptinews.com/home.aspx',
-    image: 'http://www.ptinews.com/images/logo.png',
+  title: 'PT',
+  description: 'PT',
+  id: 'pt',
+  link: 'pt',
+  image: 'pt',
 });
 
 
